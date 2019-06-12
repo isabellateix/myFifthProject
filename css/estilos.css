@@ -2,7 +2,7 @@ body {
 	margin: 0;
 }
 
-header {
+main > header {
 	background-color:grey;
 	display: flex;
 	justify-content: space-between;
@@ -22,5 +22,20 @@ header > ul > li {
 	display: inline;
 	letter-spacing: 2px;
 	font-size: 15px;
+}
 
+article {
+	background-color: pink;
+	margin: 0 10px;
+	padding: 15px;
+	margin: 50px 10% 0px 10%;
+	border-radius: 10px;
+}
+
+footer {
+	position: fixed;
+	bottom:0px;
+	left: 10px;
+	background-color: #C8A2C8;
+	padding: 50px 10px;
 }
