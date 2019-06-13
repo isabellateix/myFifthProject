@@ -2,6 +2,11 @@ body {
 	margin: 0;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+}
+
 main > header {
 	background-color:grey;
 	display: flex;
@@ -24,19 +29,41 @@ header > ul > li {
 	font-size: 15px;
 }
 
+header > ul > li:hover {
+	background-color: pink;
+	color: white;
+	transition: 1s;
+}
+
 article {
 	background-color: pink;
 	margin: 0 10px;
 	padding: 15px;
-	margin: 50px 10% 0px 10%;
+	margin: 50px 10% 50px 10%;
 	border-radius: 10px;
 }
 
 footer {
 	position: fixed;
 	bottom:0px;
-	left: 10px;
+	left: 0px;
 	width: 100%;
 	background-color: #C8A2C8;
-	padding: 50px 10px;
+	padding: 20px 10px;
+}
+
+#alinhando-centro {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#alinhando-centro > img {
+	border-radius: 10px;
+	transition: 1s;
+}
+
+#alinhando-centro img:hover {
+	transition: 1s;
+	border-radius: 50%;
 }
